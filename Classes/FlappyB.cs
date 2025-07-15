@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace flappyBird
 {
+    //Heara
     class FlappyB
     {
         private Image[] pic;
