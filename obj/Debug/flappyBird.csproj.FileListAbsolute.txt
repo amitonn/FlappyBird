@@ -1,0 +1,99 @@
+F:\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+F:\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+F:\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.Form1.resources
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+F:\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird._1Place.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird._1Place.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.EasyGame.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.NormalGame.resources
+D:\Giboyim\תיקיה חדשה\flappyBird\flappyBird\obj\Debug\flappyBird.HardGame.resources
+F:\FlappyBird\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+F:\FlappyBird\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+F:\FlappyBird\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird._1Place.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.EasyGame.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.HardGame.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.NormalGame.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+F:\FlappyBird\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+F:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+F:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+F:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.EasyGame.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HardGame.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.NormalGame.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HighScoreBoard.resources
+F:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\Interop.WMPLib.dll
+F:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\AxInterop.WMPLib.dll
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\Interop.WMPLib.dll
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\AxInterop.WMPLib.dll
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.ResolveComReference.cache
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\Interop.WMPLib.dll
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\AxInterop.WMPLib.dll
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.ResolveComReference.cache
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\Interop.WMPLib.dll
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\AxInterop.WMPLib.dll
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HighScoreBoard.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.EasyGame.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HardGame.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.NormalGame.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+F:\giboy\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+F:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.InfoForm.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\Interop.WMPLib.dll
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\AxInterop.WMPLib.dll
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.ResolveComReference.cache
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+G:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+G:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+G:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\Interop.WMPLib.dll
+G:\פרוייקט גמר\flappyBird\flappyBird\bin\Debug\AxInterop.WMPLib.dll
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csprojResolveAssemblyReference.cache
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HighScoreBoard.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.EasyGame.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.HardGame.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.MainForm.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.NormalGame.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.InfoForm.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.Properties.Resources.resources
+G:\פרוייקט גמר\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.GenerateResource.Cache
+G:\giboy\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+G:\giboy\flappyBird\flappyBird\obj\Debug\Interop.WMPLib.dll
+G:\giboy\flappyBird\flappyBird\obj\Debug\AxInterop.WMPLib.dll
+G:\giboy\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.ResolveComReference.cache
+G:\giboy\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+G:\giboy\flappyBird\flappyBird\obj\Debug\flappyBird.pdb

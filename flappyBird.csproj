@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6865668-4E84-4F76-BE01-BA97C8569293}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>flappyBird</RootNamespace>
+    <AssemblyName>flappyBird</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AllPipes\DownPipes.cs" />
+    <Compile Include="Classes\AllPipes\Pipe.cs" />
+    <Compile Include="Classes\Managers\MainManager.cs" />
+    <Compile Include="Forms\HighScoreBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HighScoreBoard.Designer.cs">
+      <DependentUpon>HighScoreBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\FlappyB.cs" />
+    <Compile Include="Classes\AllPipes\UpPipe.cs" />
+    <Compile Include="Classes\Managers\HardGameManager.cs" />
+    <Compile Include="Classes\Managers\MainFormManager.cs" />
+    <Compile Include="Classes\Managers\EasyGameManager.cs" />
+    <Compile Include="Forms\EasyGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EasyGame.Designer.cs">
+      <DependentUpon>EasyGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HardGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HardGame.Designer.cs">
+      <DependentUpon>HardGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NormalGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NormalGame.Designer.cs">
+      <DependentUpon>NormalGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Managers\NormalGameManager.cs" />
+    <Compile Include="Forms\InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InfoForm.Designer.cs">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\HighScoreBoard.resx">
+      <DependentUpon>HighScoreBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EasyGame.resx">
+      <DependentUpon>EasyGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HardGame.resx">
+      <DependentUpon>HardGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NormalGame.resx">
+      <DependentUpon>NormalGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InfoForm.resx">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPhot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBottum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1stPlace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1stPlace1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Places.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-slider-flappy-birds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1stPlace2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flappy Bird Theme Song.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownAmod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpAmod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinkUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinkDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUpSword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GDownSword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LDownPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LUpPipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRBird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRBird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRBird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABird3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABird1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABird2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightningBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NightBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegularBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheTowerBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabaBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winners stage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winners stage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HallOfFameBackGround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultScreenNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultScreenNewNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultScreenNewHard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Infobtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InstructionsBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Places.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenPillar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GPDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GPUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ocean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aquarium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turtle3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turtle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turtle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RanksBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Getting_point_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightRanksBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightPlayBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightInfoBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applyimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shiningApplyimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundcolorimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chooseflappycolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosepipescolorimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundcolorimage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chooseflappycolor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosepipescolorimage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTheGameInYourOwnImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTheGameInYourOwnImageShining.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetHighScoreBtn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetHighscoreBtnShining.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingspic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shiningsettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShiningPlayMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShinigStopMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chooselevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightChooseLevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pressspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pressspaceshining.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
